@@ -12,7 +12,7 @@ const GET_FROM_STORAGE_ENCRIPTED = (name) => {
 }
 
 const GET_FROM_STORAGE = (name) => {
-  return localStorage.getItem(name), GetAPI_KEY()
+  return localStorage.getItem(name)
 }
 const SAVE_WITH_DURATION_EN = (vname, value, day) => {
   localStorage.setItem(vname, CryptoJS.AES.encrypt(value, GetAPI_KEY()))
