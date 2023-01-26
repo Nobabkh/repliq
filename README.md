@@ -27,3 +27,5 @@ with Landing page Product page product list cart log in and Registration and adm
 "simplebar-react": "^2.4.1"
 ```
 ##Al dependencies are open source and free
+
+#admin panel is at admin.yoururl.com
