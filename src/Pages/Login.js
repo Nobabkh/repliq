@@ -6,13 +6,13 @@ export default function Login() {
   return (
     <div>
       <Header />
-      <Login_Body />
+      <LoginBody />
       <Footer />
     </div>
   )
 }
 
-function Login_Body() {
+function LoginBody() {
   const [formdata, setformdata] = React.useState({
     email: '',
     password: '',
