@@ -9,6 +9,7 @@ export default function Footer() {
           <p> Stay fit. All day, every day. </p>
           <div className="flex justify-center my-10">
             <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+              {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
               <img
                 src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
                 className="w-7 md:w-8"
@@ -20,6 +21,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">
+              {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
               <img
                 src="https://cdn-icons-png.flaticon.com/512/888/888841.png"
                 className="w-7 md:w-8"

@@ -10,12 +10,11 @@ function persentagecalculator(price, discount) {
   return price
 }
 export default function Cart(pop) {
-  const text = 'Autumn Limited Edition Sneakers'
   const [product, setProducts] = React.useState(cartdata)
   const removeproduct = (produ) => {
     setProducts(() => {
       return product.filter((ele) => {
-        return ele != produ
+        return ele !== produ
       })
     })
   }

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { RxCross2 } from 'react-icons/rx'
 import { GET_FROM_STORAGE, GET_FROM_STORAGE_ENCRIPTED } from '../Data/localstorage'
-import { GetAPI_KEY } from '../database/KeyHandeler'
 import Cart from './Cart'
 import { BsCart3 } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'
@@ -24,6 +23,7 @@ export default function Navbar() {
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-cyan-500 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               onClick={() => {
@@ -58,6 +58,7 @@ function NotLogged() {
   return (
     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
       <li className="nav-item">
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a
           className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
           onClick={() => {
@@ -68,6 +69,7 @@ function NotLogged() {
         </a>
       </li>
       <li className="nav-item">
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a
           className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
           onClick={() => {
@@ -78,6 +80,7 @@ function NotLogged() {
         </a>
       </li>
       <li className="nav-item">
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a
           className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
           onClick={() => {
@@ -96,6 +99,7 @@ function Loggedin(prop) {
   return (
     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
       <li className="nav-item">
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a
           className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
           onClick={() => {
@@ -106,9 +110,10 @@ function Loggedin(prop) {
         </a>
       </li>
       <li className="nav-item">
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a
           className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-          href="admin.localhost"
+          href="#"
         >
           <span className="ml-2">Account</span>
         </a>

@@ -7,7 +7,6 @@ import plus from '../images/icon-plus.svg'
 import Header from '../mcomponents/Header'
 import Lightbox from '../mcomponents/Lightbox'
 import { useParams } from 'react-router-dom'
-import Cart from '../mcomponents/Cart'
 import Footer from '../mcomponents/Footer'
 
 export default function Product() {

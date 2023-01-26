@@ -1,11 +1,8 @@
 import 'react-app-polyfill/stable'
 import 'core-js'
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App'
 import reportWebVitals from './reportWebVitals'
-import { Provider } from 'react-redux'
-import store from './store'
 import helper_init from './helper/Helper'
 
 helper_init()
